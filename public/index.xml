@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AFD on </title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in AFD on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 Mar 2024 21:59:03 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pijaditas de LaTeX</title>
+      <link>http://localhost:1313/pijaditas-de-latex/</link>
+      <pubDate>Tue, 19 Mar 2024 21:59:03 +0100</pubDate>
+      <guid>http://localhost:1313/pijaditas-de-latex/</guid>
+      <description>Recopilatorio personal de algunas cosas guays de LaTeX, algunas de ellas útiles.&#xA;Quitar la barra inferior de navegación inútil del beamer. \setbeamertemplate{navigation symbols}{} Hacer que la l se reemplace por \ell en modo matemático. \mathcode`l=&amp;#34;8000 \begingroup \makeatletter \lccode`\~=`\l \DeclareMathSymbol{\lsb@l}{\mathalpha}{letters}{`l} \lowercase{\gdef~{\ifnum\the\mathgroup=\m@ne \ell \else \lsb@l \fi}}% \endgroup Comentar: hay varias formas de hacerlo. Una opción es usar el package comment, pero este no se comporta muy allá con beamer. También se puede usar el environment comment de verbatim.</description>
+    </item>
+  </channel>
+</rss>
