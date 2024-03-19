@@ -7,6 +7,8 @@ title = "AFD"
 
 (this text centers the image)![ye](profile.jpg)
 
+---
+
 - Name: Adrián Fidalgo-Díaz
 - Occupation: PhD student in Mathematics at the University of Valladolid
 - Interests:
